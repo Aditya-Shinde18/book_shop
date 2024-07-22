@@ -1,0 +1,54 @@
+section{
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+}
+
+.card{
+    width: 250px;
+    padding: 20px;
+}
+
+.card:hover{
+    box-shadow: 0 10px 10px 10px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+.image_box img{
+  width: 150px;
+  height: 200px;
+}
+
+.details p:nth-child(1){
+    font-weight: bold;
+}
+
+.details p:nth-child(2){
+    color: grey;
+    font-size: 0.8rem;
+
+}
+
+.details p:nth-child(3){
+    font-weight: bold;
+    color: gray;
+    color: gray;
+}
+
+.details button{
+    padding: 5px 10px;
+    border: none;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(208, 157, 63);
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.details button:hover{
+    background-color: orange;
+}
